@@ -34,7 +34,7 @@ An example sequence, not a pipeline:
 6. Revision in the seed where the problem lives, from a restatement when feedback is ambiguous.
 7. Final audit and the delivery folder (`seeds/audit.md`).
 
-`reference/technical-facts.md` holds timing, picture and loudness facts; the builder's self-tests that check them are in `seeds/cut-and-build.md`. `reference/ui-design.md` holds the design references and ranked interface defects for judging interface stills.
+`reference/technical-facts.md` holds timing, picture and loudness facts; the builder's self-tests that check them are in `seeds/cut-and-build.md`. `reference/ui-design.md` holds the interface direction the person gave during the source production, generalized, with a check for each rule that can be run on a still.
 
 **Hypothesis: settle structure before polish**, because a bare stitch lets order be judged before finish is paid for. The source production's largest avoidable losses were polished drafts on an order later discarded. It fails when the effect depends on finish, as with a sound treatment; then finish only the sample that judgment needs (`seeds/assembly.md`).
 

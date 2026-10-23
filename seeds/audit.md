@@ -25,7 +25,7 @@ The report interprets and cites the raw outputs. It records the draft id, hash a
 - **Frames near joins:** stray frames of the other speaker, borrowed picture past a camera switch, zoom jumps, freezes, duplicates (`mpdecimate`); grab contact-sheet frames per `reference/technical-facts.md` (Picture).
 - **File:** dead air (`silencedetect`), rotation, duration, rates.
 - **Pacing graphs** find candidates, not edits. **Must (truthfulness):** present no graph you have not read; write on each its question and conclusion.
-- **Stills:** wraps, off-brand fonts, captions over names, stale or illegible text. For each interface still, run the checks under the ranked defects in `reference/ui-design.md` and record each hit with its rank.
+- **Stills:** wraps, off-brand fonts, captions over names, stale or illegible text. For each interface still, run the checks in `reference/ui-design.md`, the source production's interface direction, and record each rule the still breaks.
 - **Personal data. Must (privacy):** scan sampled frames of every span used for emails, keys, tokens, names and notifications, starting from `footage/privacy.md`; blur, crop or cut each.
 - **Mix:** the mix report's loudness, true peak and clipping.
 

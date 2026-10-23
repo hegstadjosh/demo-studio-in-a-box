@@ -38,7 +38,7 @@ Track which caption layer a request concerns (recorded speakers, narrator, other
 
 ## Stills of key states
 
-For every draft, render key states and transition midpoints from the actual render into `stills/<draft-id>/` for the audit report (G1) and the live board. Look for captions over names or logos, unintended wraps, duplicated widgets, stale text from the previous beat, off-brand fonts, an empty card mid-click, a face labelled as someone speaking offscreen, and a background that changes while a modal still covers it. Judge each interface still against `reference/ui-design.md`: check it for the ranked defects in order, starting with one job drawn differently across screens, wrong or unexplained scores and broken phone layouts, and name the reference behind each finding. A still shows a visible defect, not how motion feels.
+For every draft, render key states and transition midpoints from the actual render into `stills/<draft-id>/` for the audit report (G1) and the live board. Look for captions over names or logos, unintended wraps, duplicated widgets, stale text from the previous beat, off-brand fonts, an empty card mid-click, a face labelled as someone speaking offscreen, and a background that changes while a modal still covers it. Judge each interface still against `reference/ui-design.md`, the interface direction the person gave during the source production, such as containing all text, building from real components in the product's brand and never wrapping by accident, and name the rule behind each finding. A still shows a visible defect, not how motion feels.
 
 ## Generated pictures and speaking faces
 
