@@ -20,6 +20,8 @@ Decide what the film is while a change costs a paragraph, not a render, so the p
 
 A recurring situation, character, rivalry or question can spare repeated setup and let later scenes develop what the viewer knows. **Hypothesis:** in a promotional product film, showing what distinguishes parallel features holds interest that a repeated setup spends; it fails in a tutorial, where a repeated setup teaches the pattern.
 
+**Hypothesis:** give each beat the screen time its job needs, because a viewer reads a beat only as far as its job requires. A fast grid of many examples can show a platform's breadth without any card being read, while the main reply or a needed explanation must stay long enough to be understood; a closing invitation fits the breadth shown before it, since an invitation wider than the film asks the viewer to trust what was not shown. This came from the source production's product films and is not established elsewhere. It fails when the grid's items are themselves the claim, such as names the viewer must recognize; then show fewer, longer.
+
 *Narration's job.* Ask what the picture leaves unclear: narration can connect a compelling scene to the product's larger meaning, or interrupt a self-explanatory exchange and repeat visible names, whatever the duration.
 
 **6. Whole-film dimensions.** Intended treatment of each: story, edit, interface, every kind of sound, music, narration, transitions, pacing, muted viewing. Where one is absent, write "not used" and why; `seeds/audit.md` walks this list on every full draft.
@@ -32,7 +34,7 @@ A recurring situation, character, rivalry or question can spare repeated setup a
 
 One rough frame per beat, captioned with its job and built cheaply from coded stills, footage frames or a contact sheet, so order and look are judged before any render. Show it through `tools/show`.
 
-**Optional deck.** When the premise or the audience's starting knowledge is unclear, a short, mostly verbal idea deck may surface the audience's mental model before the structure is set; its value in the source production is not established.
+**Optional deck.** When the premise or the audience's starting knowledge is unclear, a short, mostly verbal idea deck may surface the audience's mental model before the structure is set; its value in the source production is not established. The deck's order need not become the film's, since a deck spells out reasoning that a short film can leave to its beats.
 
 ## `research.md`
 

@@ -25,7 +25,7 @@ The report interprets and cites the raw outputs. It records the draft id, hash a
 - **Frames near joins:** stray frames of the other speaker, borrowed picture past a camera switch, zoom jumps, freezes, duplicates (`mpdecimate`); grab contact-sheet frames per `reference/technical-facts.md` (Picture).
 - **File:** dead air (`silencedetect`), rotation, duration, rates.
 - **Pacing graphs** find candidates, not edits. **Must (truthfulness):** present no graph you have not read; write on each its question and conclusion.
-- **Stills:** wraps, off-brand fonts, captions over names, stale or illegible text.
+- **Stills:** wraps, off-brand fonts, captions over names, stale or illegible text. For each interface still, run the checks under the ranked defects in `reference/ui-design.md` and record each hit with its rank.
 - **Personal data. Must (privacy):** scan sampled frames of every span used for emails, keys, tokens, names and notifications, starting from `footage/privacy.md`; blur, crop or cut each.
 - **Mix:** the mix report's loudness, true peak and clipping.
 
@@ -33,7 +33,9 @@ The report interprets and cites the raw outputs. It records the draft id, hash a
 
 Timeline inspection shows intended data, not the export. Probes, recognition and loudness show media properties and candidate defects, not natural speech. A contact sheet shows sampled appearance, not motion or sound. Audio correlation matches soundtracks, not lips. Continuous review shows one file's experience, not viewer acceptance. A human response covers that version only. A send receipt shows delivery, not viewing.
 
-**Must (truthfulness):** if you cannot hear, say so and claim no listening pass. With narration, music or cut speech, send the person the timestamps of every join and cue measurement could not clear (a level track clears bleed and dead air, not clicks or tone), or list them as unverified if the person asked for no discussion. A model's own listening is an instrument with false positives, never the person's.
+**Must (truthfulness):** if you cannot hear, say so and claim no listening pass. With narration, music or cut speech, send the person the timestamps of every join and cue measurement could not clear (a level track clears bleed and dead air, not clicks or tone), or list them as unverified if the person asked for no discussion. A model's own listening is an instrument with false positives, never the person's. An honest report can read: "I inspected frames and measured the audio; I could not hear playback."
+
+**Must (truthfulness):** an earlier session's or helper's statement that something was or was not done (listened to, checked, indexed) is its claim, not evidence; check the artifact, or report the statement as theirs.
 
 ## The independent review
 

@@ -28,9 +28,9 @@ Before drawing any interface, put the wordmark, fonts, colours, navigation and r
 
 ## Format changes and caption layers
 
-**Hypothesis:** a viewer on a phone judges a portrait product film as the product on a phone, so a framed landscape interface reads as small and unfinished; in the source production the person directed this change. Where the product has a mobile form, depict it. Where it has none, a mobile depiction is a proposed experience and goes in the truth list; a framed or cropped landscape view may be the honest choice. Keep the soundtrack if the picture fits; verify readability and timing.
+**Hypothesis:** a viewer on a phone judges a portrait product film as the product on a phone, so a framed landscape interface reads as small and unfinished; in the source production the person directed this change. Redesign navigation, main content and primary actions for the phone rather than enlarging a border around the landscape film, and keep a third-party moment, such as an invite shared in a familiar messaging thread, recognizable. Where the product has a mobile form, depict it. Where it has none, a mobile depiction is a proposed experience and goes in the truth list; a framed or cropped landscape view may be the honest choice. Keep the soundtrack if the picture fits; verify readability and timing.
 
-Track which caption layer a request concerns (recorded speakers, narrator, other clip speech, interface text) and when: removing narrator captions during a debate leaves the debaters' captions. If a caption covers something important, move that layer; deleting it changes what the film says.
+Track which caption layer a request concerns (recorded speakers, narrator, other clip speech, interface text) and when: removing narrator captions during a debate leaves the debaters' captions. If a caption covers something important, move that layer; deleting it changes what the film says. Check each layer for words per screen, line grouping, contrast, timing against speech and safe-area placement, including over a reaction shot or split screen. Mark in the truth list whether a caption is a film overlay or a depicted product feature, since a viewer may take an overlay for something the product does.
 
 ## Screen recordings
 
@@ -38,7 +38,7 @@ Track which caption layer a request concerns (recorded speakers, narrator, other
 
 ## Stills of key states
 
-For every draft, render key states and transition midpoints from the actual render into `stills/<draft-id>/` for the audit report (G1) and the live board. Look for captions over names or logos, unintended wraps, duplicated widgets, stale text and off-brand fonts. A still shows a visible defect, not how motion feels.
+For every draft, render key states and transition midpoints from the actual render into `stills/<draft-id>/` for the audit report (G1) and the live board. Look for captions over names or logos, unintended wraps, duplicated widgets, stale text from the previous beat, off-brand fonts, an empty card mid-click, a face labelled as someone speaking offscreen, and a background that changes while a modal still covers it. Judge each interface still against `reference/ui-design.md`: check it for the ranked defects in order, starting with one job drawn differently across screens, wrong or unexplained scores and broken phone layouts, and name the reference behind each finding. A still shows a visible defect, not how motion feels.
 
 ## Generated pictures and speaking faces
 
@@ -46,9 +46,9 @@ For every draft, render key states and transition midpoints from the actual rend
 
 **Hypothesis.** Propose each generated element in one line before making it: in the source production generated media cost the most and survived the least, and a proposal answered within minutes beat an unwanted render. How long to wait is not established; when no reply is coming, the proposal only delays the work, so generate within the budget and record the choice in the decision ledger. Cost questions within the budget: `seeds/sound-and-voice.md`.
 
-**Hypothesis:** for speaking faces, a service that renders a clip from an image and finished audio gives a fixed, reviewable take, where recording a live streaming avatar depends on the network during capture; in the source production the live route lost frames and sync. Locking the voice first, one clip per line, and naming background, lighting and camera in the prompt kept clips consistent there. Not established across services. It fails when the service drifts in identity or setting within a clip; check a contact sheet of every raw clip.
+**Hypothesis:** for speaking faces, a service that renders a clip from an image and finished audio gives a fixed, reviewable take, where recording a live streaming avatar depends on the network during capture; in the source production the live route lost frames and sync. Locking the voice first, one clip per line, and naming background, lighting and camera in the prompt kept clips consistent there. Not established across services. It fails when the service drifts in identity or setting within a clip, which prompt words suggesting a place (an orator, a hall, a library) can invite; check a contact sheet of every raw clip.
 
-**Must (technical fact):** matching audio does not prove visible lip-sync; inspect articulation and pauses.
+**Must (technical fact):** matching audio does not prove visible lip-sync; inspect word beginnings and endings, pauses and the return to rest, and the whole face for identity, lighting and crop.
 
 **Must (truthfulness):** present real recorded speech and people as real, never present generated people or voices as recorded, and list each generated person and voice in the truth note.
 

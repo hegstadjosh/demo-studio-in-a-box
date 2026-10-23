@@ -6,7 +6,7 @@
 
 ## The cut file
 
-`cut.json` holds the named drafts and which one is current. Each item carries its source file, in and out points in source time, label, speed, gain, borrowed picture, freeze or hold, overlap lead, and a generated-line flag. Name source time and timeline time separately everywhere, because speed, holds and overlaps make them diverge. Design the schema yourself.
+`cut.json` holds the named drafts and which one is current. Each item carries its source file, in and out points in source time, label, speed, gain, borrowed picture, freeze or hold, overlap lead, and a generated-line flag. Name source time and timeline time separately everywhere, because speed, holds and overlaps make them diverge; where the cut plays inside a composition, name composition time too, because the composition offsets the cut and every caption and cue keyed to it must move with it. Design the schema yourself.
 
 Reframing values live in the cut file too: zoom for any item, and for screen recordings the crop, zoom and pan keyframes (`seeds/coded-scenes.md`, Screen recordings). Key them to source time, so a trim or retime moves each keyframe with the moment it frames, and the builder reproduces the framing on every build.
 
