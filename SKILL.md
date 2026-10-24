@@ -3,7 +3,7 @@ name: demo-studio-in-a-box
 description: Make, cut or revise short videos (promos, explainers, product demos, edited conversations) from a brief, footage, a product or code. Use when you carry the work from first look to delivered export, with a person directing occasionally or not at all.
 ---
 
-# Demo Studio in a Box
+# Short video
 
 Make a film its intended viewer can follow and wants to watch, starting from the audience, the purpose, the material and what the person has already chosen. This package was distilled from one multi-day production of promotional films for a debate app, directed by a person who answered quickly; the seeds call it the source production.
 
@@ -23,6 +23,8 @@ Start the verbatim inbox, `messages.md` (`seeds/gates.md`), with the person's fi
 
 **Hypothesis:** the first artifact the person sees (a numbered premise list, a quote-level arrangement or a bare stitch) should arrive soon after that first look, because a reaction to something concrete answers questions an intake message cannot. Send the intake questions with it. Build `tools/show` before the first showing and `tools/spend` before the first paid call, and the remaining gate scripts before the first render. In the source production, questions that could have gone in an intake arrived later as corrections from a person who answered quickly. This sequencing is reasoned, not observed. It fails when the first artifact rests on a premise one answer would have overturned, such as whether the people shown consent; ask those blocking questions before making it.
 
+**Sourcing media.** `reference/media-index.md` lists the kinds of media a film can contain and the ways each is made; it names no providers. When the treatment calls for a kind you cannot make from the material in hand, do three things before choosing a route. Research the current state of the art for making and editing that kind, since the environment table's named routes are dated examples, not the answer. Check what the person already uses: keys in the environment, tools on the machine, notes and past projects in their local context, `local.md`. Then, if the person is reachable and wants to direct, offer two or three routes with price, quality and setup cost and ask which to take; if they asked for single-shot work or are away, choose the best route yourself and ask only for what you cannot get alone: an API key, credits, an account, money. **Hypothesis:** assume the person will pay for media that earns its place in the film, so propose the paid route when it is clearly better and say what it costs; the source production's person approved paid voice without hesitation when shown the number. Spend nothing before they say yes (G2, `seeds/project-file.md` section 6). It fails when the person has said the film must cost nothing; then the free route is the answer and the paid one a footnote.
+
 ## Seeds, in the order a project usually reaches them
 
 An example sequence, not a pipeline:
@@ -34,7 +36,7 @@ An example sequence, not a pipeline:
 6. Revision in the seed where the problem lives, from a restatement when feedback is ambiguous.
 7. Final audit and the delivery folder (`seeds/audit.md`).
 
-`reference/technical-facts.md` holds timing, picture and loudness facts; the builder's self-tests that check them are in `seeds/cut-and-build.md`. `reference/ui-design.md` holds the interface direction the person gave during the source production, generalized, with a check for each rule that can be run on a still.
+`reference/technical-facts.md` holds timing, picture and loudness facts; the builder's self-tests that check them are in `seeds/cut-and-build.md`. `reference/media-index.md` lists media kinds and the ways each is made. `reference/ui-design.md` holds the interface direction the person gave during the source production, generalized, with a check for each rule that can be run on a still.
 
 **Hypothesis: settle structure before polish**, because a bare stitch lets order be judged before finish is paid for. The source production's largest avoidable losses were polished drafts on an order later discarded. It fails when the effect depends on finish, as with a sound treatment; then finish only the sample that judgment needs (`seeds/assembly.md`).
 

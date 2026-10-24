@@ -12,7 +12,7 @@
 
 ## Tools
 
-Checked 2026-10-22 against current documentation unless marked unverified. FFmpeg facts were checked only on 9.0.1; test each filter on your build. Re-read licences before commercial delivery.
+The named routes are examples checked 2026-10-22 against current documentation unless marked unverified; they are not a list to keep. Before committing to a paid or generative route, run the sourcing rule in `SKILL.md` (research the current state of the art, check what the person already uses, then offer or choose); `reference/media-index.md` lists the media kinds. FFmpeg facts were checked only on 9.0.1; test each filter on your build. Re-read licences before commercial delivery.
 
 | Capability | Check | Routes | If absent |
 |---|---|---|---|
