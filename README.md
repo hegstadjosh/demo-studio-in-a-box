@@ -1,6 +1,8 @@
-# short-video
+# Demo Studio in a Box
 
-short-video is a skill: a folder of Markdown files that an AI agent reads to carry a short video (a promo, an explainer, a product demo, an edited conversation) from a brief to a delivered export. A person directs occasionally or not at all.
+Turn your web app into a demo worth watching.
+
+Demo Studio in a Box is a skill: a folder of Markdown files that an AI agent reads to carry a short video (a promo, an explainer, a product demo, an edited conversation) from a brief to a delivered export. A person directs occasionally or not at all.
 
 ## Origin
 
@@ -17,10 +19,16 @@ The findings were applied to the seeds but not re-tested. The other seeds were o
 
 ## Install
 
-Copy the `short-video` folder, with `SKILL.md` at its top, into your agent's skills folder:
+```sh
+npx skills add hegstadjosh/demo-studio-in-a-box --skill demo-studio-in-a-box
+```
 
-- Claude Code: `~/.claude/skills/short-video/`, or `.claude/skills/short-video/` in a project.
-- Codex: `~/.agents/skills/short-video/`, or `.agents/skills/short-video/` in a repository.
+Or install manually:
+
+Copy the `demo-studio-in-a-box` folder, with `SKILL.md` at its top, into your agent's skills folder:
+
+- Claude Code: `~/.claude/skills/demo-studio-in-a-box/`, or `.claude/skills/demo-studio-in-a-box/` in a project.
+- Codex: `~/.agents/skills/demo-studio-in-a-box/`, or `.agents/skills/demo-studio-in-a-box/` in a repository.
 
 Any other agent can be pointed at the folder and told to read `SKILL.md` first; the files use relative paths and no harness-specific syntax.
 
